@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4"
+  },
+  "name": "reacttuts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "GOKUL KANNAMBALLY BALACHNADRAN <52125327+gokintosh@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build":"babel src/app.js --out-file public/scripts/app.js --watch"
+  }
+}
